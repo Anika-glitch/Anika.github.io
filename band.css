@@ -1,0 +1,123 @@
+body{
+    background-image: url("https://media1.tenor.com/images/d7ba81e3381cbc8e7b2e696a4b7cbc5f/tenor.gif?itemid=5102556");
+    background-repeat: repeat;
+}
+h3{
+    display: flex;
+    text-shadow: 2px 2px white;
+    font-size: 15px;
+    background-color: turquoise;
+    font-family:monospace;
+    align-items: center;
+    color: black;
+    padding: 12px;
+    justify-content: center;
+}
+footer{
+display: flex;
+font-size: 15px;
+background-color: black;
+font-family:monospace;
+align-items: center;
+color: white;
+padding: 12px;
+justify-content: center;
+}
+h1{
+display: flex;
+flex-wrap: flex;
+color: white;
+text-shadow:5px 5px white;
+font-size: 200px;
+width: 100%;
+justify-content: center;
+align-items: center;
+font-family: monospace;
+animation-name: flash;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+background-color: rgb(0,0,0,0.7);
+
+
+
+}
+@media (max-width: 767px)
+{
+    h1{
+        font-size: 100px;
+    }
+}
+@keyframes flash {
+    0%   {color:white; }
+    25% {color:blue;}
+    50%  {color:red;}
+    75%  {color:yellow;}
+    100% {color: green;}
+  }
+  .flex-three {
+    display: flex;
+    padding: 10 px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .flex-container-one {
+    display: flex;
+    font-family:monospace;
+    font-size: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(187, 8, 76);
+    
+}
+.flex-container-one>div{
+    
+width: 350px;
+padding: 10px;
+  color: rgb(3, 3, 3);
+  
+  
+}
+.flex-container-two{
+    display: flex;
+    font-family:monospace;
+    font-size: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(228, 213, 6);
+    
+}
+.flex-container-two>div{
+    
+width: 350px;
+padding: 10px;
+  color: black;
+  
+  
+}
+
+  .navbar {
+    width: 100%;
+    border-style: double;
+    border-color:turquoise;
+    overflow: auto;
+    margin-top: 0px;
+    
+  }
+  
+  
+  .navbar a {
+      font-family: monospace;
+    float: left;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 80%;
+    
+    text-align: center;
+  }
+  
+  
+  .navbar a:hover {
+   color: yellow;
+  }
